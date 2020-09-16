@@ -1,0 +1,39 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load static %}
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <h4>
+        <a class="article-title" href="#">User Video List : 
+          </a>
+             <a class="mr-2" href="#"></a>
+              <strong></strong>
+                </div>
+                  </h4>
+                    <p class="article-content"><h3>Trending TikTok Video List :
+                        </h3>
+                          <h6>
+                            <blockquote>Production Server : http://wnget.com/uapi/tiktok/post?user_id={user-id}</blockquote></h6>
+                              <table border="1">
+                                <tr>
+                                  <thead>
+                                    <tr>
+                                      <th>Card Items :</th>
+                                    </tr>
+                                  </thead>
+                                </th>
+                              <td>
+            {% for data in user_video %}
+            {% autoescape on %}
+            {{ data | safe }}
+            {% endautoescape %}
+            {% endfor %}
+            </td>
+          </tr>
+        </table> 
+      </p>
+    <small class="text-muted"></small>
+  </div>
+</article>
+{% endblock content %} 

@@ -1,0 +1,40 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load static %}
+<article class="media content-section">
+    <div class="media-body">
+       <div class="article-metadata">
+          <h4><a class="article-title" href="#">              TikTok Trending : 
+<!-- [Use this script only when data is dumped in a "csv" file]
+<table border="auto" cellspacing="auto"> 
+		{% for row in trend %}
+	<tr>
+    	{% for item in row %}
+    <td>{{item}}</td>
+    	{% endfor %}
+	</tr>
+		{% endfor %}
+	</table>
+-->     
+        </a>
+          <a class="mr-2" href="#"></a>
+            	<strong></strong>
+            		</div>
+            			</h4>
+            				<p class="article-content"><h4>Trending User Names & Hashtags : <br></h4>
+            					<table border="1"><tr>
+            						<thead><tr><th>Trending Data :</th></tr></thead><td>
+            {% for data in Trend %}
+            {% autoescape on %}
+            {{ data | safe }}
+            {% endautoescape %}
+            {% endfor %}
+							</td></tr></table></p>
+            		<small class="text-muted"></small>
+          		</div>
+          </article>
+<!-- 			{% if tiktok %}
+				{ tiktok | safe }
+				{% endif %} -->
+	
+{% endblock content %} 

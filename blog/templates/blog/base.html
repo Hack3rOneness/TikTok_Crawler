@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+
+    {% if title %}
+        <title>TikTok DashBoard - {{ title }}</title>
+    {% else %}
+        <title>TikTok DashBoard</title>
+    {% endif %}
+</head>
+<body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <div class="container">
+          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">TikTok DashBoard</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
+              <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="accounts/login">Login</a>
+              <a class="nav-item nav-link" href="admin/">Register</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8">
+          {% block content %}
+          {% endblock %}
+        </div>
+        <div class="col-md-4">
+          <div class="content-section">
+            <h3>Dashboard Services:</h3>
+            <p class='text-muted'>Navigate from down >^:^<
+              <ul class="list-group">
+                <a class="nav-item nav-link" href="{% url 'trending' %}">
+                <li class="list-group-item list-group-item-light">Get The Trending Data (Top 10)</li></a>
+                <a class="nav-item nav-link" href="{% url 'User_Name' %}">
+                <li class="list-group-item list-group-item-light">Get The The TikTok User Name</li></a>
+                <a class="nav-item nav-link" href="{% url 'Hastags' %}">
+                <li class="list-group-item list-group-item-light">Get The Data By Hashtags</li></a>
+                <a class="nav-item nav-link" href="{% url 'Mp3_Data' %}">
+                <li class="list-group-item list-group-item-light">Get The Mp3 format Data</li></a>
+                <a class="nav-item nav-link" href="{% url 'User_Video' %}">
+                <li class="list-group-item list-group-item-light">Get Users Videos</li></a>
+                <a class="nav-item nav-link" href="{% url 'Download' %}">
+                <li class="list-group-item list-group-item-light">Download a TikTok Video Here : </li></a>
+                <a class="nav-item nav-link" href="{% url 'All_Data' %}">
+                <li class="list-group-item list-group-item-light">Crawl All Real-Time Data</li></a>
+
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

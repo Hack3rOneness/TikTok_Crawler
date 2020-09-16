@@ -1,0 +1,36 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load static %}
+{% for post in details %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <h5><a class="article-title" href="#">{{ post.title }}  ----->    Move On The Right Panel </a>
+             <a class="mr-2" href="#">{{ post.author }}</a>
+            <strong></strong>
+            </div>
+            </h5>
+            <p class="article-content"><h4><marquee>
+            | Social Media Crawler (TikTok) |</marquee></h4></p>
+            <small class="text-muted">{{ post.date_posted }}</small>
+          </div>
+          </article>
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <h5><a class="article-title" href="#">Cyber Peace Foundation</h5></a></div><br>
+                <img src="{% static 'images/cpf.png' %}" alt="Cyber Peace Foundation" style="width:auto;height:auto;"><br>
+                <br></h5></div>
+                  </article>
+     <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <h2><a class="article-title" href="#">This Project Made For Analysis of TikTok Live Streaming Data!</a></h2>
+              </div>
+              <a class="mr-2" href="#">Project : In Behalf of @Cybe Peace Foundation</a>
+              <small class="text-muted">Developed By : <strong>Sumit Kumar</strong> Under the mentor : <strong>Dr. Irfan Siddavatam</strong><br></small>
+            </div>            
+            <p class="article-content"></p>         
+        </article>
+    {% endfor %}
+{% endblock content %}

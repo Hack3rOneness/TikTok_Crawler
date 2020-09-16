@@ -1,0 +1,38 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load static %}
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <h4><a class="article-title" href="#">              Download a TikTok Video : </a>
+        <a class="mr-2" href="#"></a>
+          <strong></strong>
+            </div>
+              </h4>
+                  <p class="article-content"><h5>Link Should be starts with "http or https"<br></h5>
+                    <style type="text/css">
+                                label {
+                                        display: block;
+                                        font: 1rem 'Fira Sans', sans-serif;
+                                      }
+                                input,
+                                label, button 
+                                      {
+                                        margin: .4rem 0;
+                                      }
+                    </style>
+                  <form action="#">
+                <label for="name">Put a Link Here :</label>
+              <input type="url" id="download" name="download" required>
+            <button >Download</button>
+          </form>
+            {% for data in file_name %}
+            {% autoescape on %}
+            {{ data | safe }}
+            {% endautoescape %}
+            {% endfor %} 
+            </p>
+          <small class="text-muted"></small>
+        </div>
+      </article>
+{% endblock content %} 
