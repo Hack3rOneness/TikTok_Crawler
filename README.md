@@ -51,7 +51,7 @@ A Python Based Crawler written in Django(UI).
   - build setup.py
   - cd ../
   - python manage.py runserver
-  - Open browser enter this address [localhost](http://127.0.0.1:8000) you must see the complete project.
+  - Open browser enter this address localhost:http://127.0.0.1:8000 localhost you must see the complete project.
 
 [![Custom badge][Insta-shield]][Insta-me]
 [![LinkedIn][linkedIn-shield]][linkedin-url]
