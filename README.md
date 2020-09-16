@@ -30,6 +30,21 @@ A Python Based Crawler written in Django(UI).
 - [![download][download]][download]
 - [![login][login]][login]
 
+- ### Setting up environment : Follow  the complate tutorial for Django [here](https://docs.djangoproject.com/en/1.8/howto/windows/#:~:text=Django%20can%20be%20installed%20easily,version%20in%20the%20command%20prompt.)
+    - #### Install Django by running this command : 
+        - On Windows Download Binary Executable file from it's official website [Docs.Djangoproject.com](https://python.org/download/).
+        - Add this ```C:\Python34\;C:\Python34\Scripts;``` PATH In system environment.
+    - #### Install with Setuptool : 
+        - Install latest version of setuptool from [SetupTool](https://pypi.python.org/pypi/setuptools)
+    - #### Install PIP : 
+        - Open a command prompt and execute easy_install pip. This will install pip on your system. This command will work if you have successfully installed Setuptools.
+    - #### Install Django :
+        - ```pip install django```
+        - Run this command in cmd ```django-admin --version```
+    - #### In linux running commands are but need to add path in such way :
+        - set http_proxy=http://username:password@proxyserver:proxyport
+        - set https_proxy=https://username:password@proxyserver:proxyport
+
 [![Custom badge][Insta-shield]][Insta-me]
 [![LinkedIn][linkedIn-shield]][linkedin-url]
 [![contributor][contributor]][contributor] [![GitHub issues](https://img.shields.io/github/issues/Hack3rOneness/TikTok_Crawler?style=plastic)](https://github.com/Hack3rOneness/TikTok_Crawler/issues) [![GitHub forks](https://img.shields.io/github/forks/Hack3rOneness/TikTok_Crawler?style=plastic)](https://github.com/Hack3rOneness/TikTok_Crawler/network) [![GitHub stars](https://img.shields.io/github/stars/Hack3rOneness/TikTok_Crawler?style=plastic)](https://github.com/Hack3rOneness/TikTok_Crawler/stargazers)
