@@ -1,0 +1,16 @@
+Server : http://wnget.com/uapi/tiktok/post?user_id=6691366574592396038
+
+{'cardItem': {'id': '6704854531001289474', 
+'type': 1, 'cover': 
+'https://p16-sg.muscdn.com/aweme/200x200/iesmusic-sg-local/v1/muse-ma-obj/1636964099584006.PNG.jpeg', 
+'title': 'Señorita', 
+'subTitle': '6.1M videos', 
+'description': 'Shawn Mendes & Camila Cabello', 
+'link': '/music/Señorita-6704854531001289474', 
+'round': False, 
+'playToken': '', 
+'keyToken': '', 
+'extraInfo': {'musicId': '6704854531001289474', 
+'playUrl': ['https://sf16-sg.muscdn.com/obj/tiktok-obj/1636927398086657.mp3'], 
+'posts': 6114521}}, 
+'videoList': []}
