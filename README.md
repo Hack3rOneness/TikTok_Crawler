@@ -19,10 +19,16 @@ A Python Based Crawler written in Django(UI).
     - Trending Videos url
     - Descriptions etc.
 
-- ### Screents :
-
-- 
-
+- ### Screenshots :
+- [![HomePage][img-1]][img-1]
+- [![About][about]][about]
+- [![trend][trend]][trend]
+- [![user-name][user-name]][user-name]
+- [![hashtag][hashtag]][hashtag]
+- [![mp3-data][mp3-data]][mp3-data]
+- [![video][video]][video]
+- [![download][download]][download]
+- [![login][login]][login]
 
 [![Custom badge][Insta-shield]][Insta-me]
 [![LinkedIn][linkedIn-shield]][linkedin-url]
@@ -34,3 +40,12 @@ A Python Based Crawler written in Django(UI).
 [Insta-shield]: https://img.shields.io/badge/~Hack3r__Oneness-Instagram-02f5ff?style=plastic&logo=appveyor
 [Insta-me]: https://instagram.com/hack3r_oneness 
 [contributor]: https://img.shields.io/badge/Contributor-Lalit-brightgreen?style=plastic&logo=appveyor
+[img-1]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(265).png
+[about]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(266).png
+[trend]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(267).png
+[user-name]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(268).png
+[hashtag]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(269).png
+[mp3-data]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(270).png
+[video]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(271).png
+[download]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(272).png
+[login]:https://github.com/Hack3rOneness/TikTok_Crawler/blob/master/Screenshots/Screenshot%20(273).png
