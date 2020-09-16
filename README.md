@@ -30,7 +30,7 @@ A Python Based Crawler written in Django(UI).
 - [![download][download]][download]
 - [![login][login]][login]
 
-- ### Setting up environment : Follow  the complate tutorial for Django [here](https://docs.djangoproject.com/en/1.8/howto/windows/#:~:text=Django%20can%20be%20installed%20easily,version%20in%20the%20command%20prompt.)
+- ### Setting up environment : Follow the complete tutorial for Django [here](https://docs.djangoproject.com/en/1.8/howto/windows/#:~:text=Django%20can%20be%20installed%20easily,version%20in%20the%20command%20prompt.)
     - #### Install Django by running this command : 
         - On Windows Download Binary Executable file from it's official website [Docs.Djangoproject.com](https://python.org/download/).
         - Add this ```C:\Python34\;C:\Python34\Scripts;``` PATH In system environment.
@@ -41,9 +41,17 @@ A Python Based Crawler written in Django(UI).
     - #### Install Django :
         - ```pip install django```
         - Run this command in cmd ```django-admin --version```
-    - #### In linux running commands are but need to add path in such way :
+    - #### In linux running commands are same as above but need to add proxy path in such way :
         - set http_proxy=http://username:password@proxyserver:proxyport
         - set https_proxy=https://username:password@proxyserver:proxyport
+- ### Install this project :
+  - git clone https://github.com/Hack3rOneness/TikTok_Crawler.git
+  - cd TikTok_Crawler
+  - cd TikTok-Api
+  - build setup.py
+  - cd ../
+  - python manage.py runserver
+  - Open browser enter this address [localhost](http://127.0.0.1:8000) you must see the complete project.
 
 [![Custom badge][Insta-shield]][Insta-me]
 [![LinkedIn][linkedIn-shield]][linkedin-url]
