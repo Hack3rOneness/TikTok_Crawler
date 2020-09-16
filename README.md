@@ -1,5 +1,5 @@
 # TikTok_Crawler
-A Python Based Crawler written in Django(UI). 
+A Python Based Crawler written in Django(UI).😍
 
 ## Project Description : 
 - Project was developed under ```Cyber Peace Foundation``` [![Twitter](https://img.shields.io/badge/Twitter-Cyber%20Peace%20Foundation-blue?style=social&logo=appveyor)](https://twitter.com/cyberpeacengo) the abstract of this project was do analysis on live streamed "TikTok" data for we called an Api (TikTok-Api).
