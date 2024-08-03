@@ -1,4 +1,4 @@
-# TikTok_Crawler
+# TikTok_Crawler [![Django CI](https://github.com/Hack3rOneness/TikTok_Crawler/actions/workflows/django.yml/badge.svg)](https://github.com/Hack3rOneness/TikTok_Crawler/actions/workflows/django.yml)
 A Python Based Crawler written in Django(UI).😍
 
 ## Project Description : 
